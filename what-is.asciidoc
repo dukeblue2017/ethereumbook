@@ -134,7 +134,7 @@ In Ethereum, the components of a blockchain system described in <<blockchain_com
 
 P2P Network:: Ethereum runs on the _Ethereum Main Network_, which is addressable on TCP port 30303, and runs a protocol called _ÐΞVp2p_.
 
-Consensus rules:: Ethereum's consensus rules, are defined in the reference specification, the <<yellowpaper>>.
+Consensus rules:: Ethereum's consensus rules are defined in the reference specification, the <<yellowpaper>>.
 
 Transactions:: Ethereum transactions (see <<transactions>>) are network messages, that include (among other things) a sender, recipient, value and data payload.
 
@@ -269,7 +269,7 @@ In Ethereum, by comparison, the development culture is focused on speed and inno
 this sections sounds a bit weak... it leads to the question whether ethereum is a company or something like that, where someone from the top is taking "innovative" decisions you should follow (vs bitcoin where you are free to follow the rules that you deem to be reflecting your idea of how bitcoin should look like). Plus the whole incentives part: bitcoin is static because a lot of value sits on its network, how does this aspect look like in ethereum? basically, why this innovation culture?
 ////
 
-What this means to you as a developer, is that you must remain flexible and be prepared to rebuild your infrastructure as some of the underlying assumptions change. Do not assume anything will be static or permanent. One of the big challenges facing developers in Ethereum is the inherent contradiction between deploying code to an immutable ledger and a development platform that is still rapidly evolving. You can't simply "upgrade" your smart contracts. You must be prepared to deploy new ones, migrate users, apps and funds, and start over.
+What this means to you as a developer is that you must remain flexible and be prepared to rebuild your infrastructure as some of the underlying assumptions change. Do not assume anything will be static or permanent. One of the big challenges facing developers in Ethereum is the inherent contradiction between deploying code to an immutable ledger and a development platform that is still rapidly evolving. You can't simply "upgrade" your smart contracts. You must be prepared to deploy new ones, migrate users, apps and funds, and start over.
 
 Ironically, this also means that the goal of building systems with more autonomy and less centralized control cannot be realized. Autonomy and decentralization requires a bit more stability in the platform than you're likely to get in Ethereum, in the next few years. In order to "evolve" the platform, you have to be ready to scrap and restart your smart contracts, which means you have to retain a certain degree of control over them.
 
