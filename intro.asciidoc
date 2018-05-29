@@ -252,7 +252,7 @@ In the future, all Ethereum wallets might be running as Ethereum contracts, blur
 
 Contracts have an address, just like EOAs (wallets). Contracts can send and receive ether, just like wallets. When a transaction destination is a contract address, it causes that contract to _run_ in the EVM, using the transaction as its input.
 
-In addition to ether, transactions can contain _data_ indicating which specific function in the contract to run and what parameters to pass to that function. In this way, transactions _call_ functions within contracts. Finally, contracts can generate transactions calling other contracts, building complex execution paths. One typical use of this is Contract A calling Contract B in order to maintain a shared state across users of Contract A.
+In addition to ether, transactions can contain _data_ indicating which specific function in the contract to run and what arguments to pass to that function. In this way, transactions _call_ functions within contracts. Finally, contracts can generate transactions calling other contracts, building complex execution paths. One typical use of this is Contract A calling Contract B in order to maintain a shared state across users of Contract A.
 
 In the next few sections, we will write our first contract. We will then create, fund, and use that contract with our MetaMask wallet and test ether on the Ropsten test network.
 
